@@ -1,5 +1,5 @@
 {
-    "name": "wtftt/webhook",
+    "name": "wtftt/webhook2",
     "description": "A Magento 2 module that triggers a webhook on order creation or update.",
     "require": {
         "php": ">=7.4",
@@ -12,7 +12,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Wtftt\\Webhook\\": ""
+            "Wtftt\\Webhook2\\": ""
         }
     }
 }
