@@ -25,7 +25,7 @@ class OrderAndProductWebhookPlugin
 
     public function afterSave($subject, $result)
     {
-        $webhookUrl = 'https://enocx9j9jmkxc.x.pipedream.net/magento/dev/webhooks';
+        $webhookUrl = 'https://enkil31xdetyg.x.pipedream.net/magento/dev/webhooks';
 
         // 针对订单对象的逻辑
         if ($subject instanceof Order) {
